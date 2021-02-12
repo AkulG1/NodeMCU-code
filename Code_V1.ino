@@ -2,10 +2,10 @@
 #include "MAX30100_PulseOximeter.h"
 #include <FirebaseArduino.h>
 #include <ESP8266WiFi.h>
-#define FIREBASE_HOST "spo2watcher.firebaseio.com/"
-#define FIREBASE_AUTH "cJ5z2Mq7btANEpz77Fv0yv7A8xEHJYypFDHn0j5G"
-#define WIFI_SSID "Gandotras_4G"                                             
-#define WIFI_PASSWORD "shalini12345"
+#define FIREBASE_HOST ""
+#define FIREBASE_AUTH ""
+#define WIFI_SSID ""                                             
+#define WIFI_PASSWORD ""
 
 #define REPORTING_PERIOD_MS     2000
 uint32_t tsLastReport = 0;
